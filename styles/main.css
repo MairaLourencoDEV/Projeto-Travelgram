@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    flex-wrap: wrap; /*Faz com que as imagens ocupem o espaço disponível*/
+    gap: 24px;
+    padding-block: 24px; /*Padding vertical que altera medidas de cima e de baixo*/
+}
+
+main img {
+    width: 286px;
+    height: 286px;
+    object-fit: cover; /*Usar caso a imagem utilizada não esteja em um quadrado perfeito, o que não é o caso desse projeto.*/
+}
