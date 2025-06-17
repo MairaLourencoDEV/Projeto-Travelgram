@@ -1,0 +1,9 @@
+footer {
+    display: flex;
+    gap: 24px;
+    padding-block: 24px;
+}
+
+footer span:nth-child(1) { /*Aqui está sendo definido qual o filho que se está buscando dentro da caixa(footer)*/
+    margin-right: auto;
+}
